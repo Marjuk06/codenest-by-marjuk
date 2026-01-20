@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CodeNest by Marjuk - Development Log
 
-## Getting Started
+## Project Status
+- **Current Version:** v0.1.0 (Public Beta)
+- **Status:** Phase 2 (Authentication)
+- **Last Updated:** Jan 20, 2026
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Phase 1: Foundation Setup (✅ Done)
+- [x] Initialize Next.js 14 (App Router)
+- [x] Configure Tailwind CSS & Shadcn UI
+- [x] Setup Firebase Project (Auth, Firestore, Storage)
+- [x] Define TypeScript Interfaces (Apps, Users, Reviews)
+- [x] Create Global Layout & Navbar
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Phase 2: Authentication & Admin (🚧 In Progress)
+- [ ] Create Login Page (`/login`)
+- [ ] Create Signup Page (`/signup`)
+- [ ] Setup Google OAuth
+- [ ] Create UserContext (Global Session State)
+- [ ] **Admin Dashboard:**
+    - [ ] Protected Route (`/admin`)
+    - [ ] Add App Form (Upload images & files)
+    - [ ] Edit/Delete Apps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Phase 3: Public Store (✅ Done)
+- [x] **Homepage:**
+    - [x] Hero Section (Glassmorphism)
+    - [x] Live Stats Counter
+    - [x] Featured Apps Carousel
+- [x] **App Listing:**
+    - [x] Search & Filter System
+    - [x] App Cards with Grid Layout
+- [x] **App Details:**
+    - [x] Dynamic Routing (`/apps/[id]`)
+    - [x] Download Button Logic
+    - [x] Tabbed Description/Specs
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Phase 4: User Dashboard (📅 Planned)
+- [ ] User Profile Page
+- [ ] "My Downloads" History
+- [ ] Settings (Theme, Notifications)
 
-## Learn More
+##  Phase 5: Monetization & SEO (📅 Planned)
+- [ ] Integrate LemonSqueezy/Paddle (Payment)
+- [ ] SEO Metadata & Sitemap
+- [ ] Google Analytics Setup
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  Notes & Ideas
+- [ ] Add "Dark Mode" toggle later.
+- [ ] Maybe add a "Request an App" feature
